@@ -10,9 +10,8 @@ int main(void)
 {
 	int n = 0;
 
-	do {
-		printf("value of n: %d\n", n);
-		n = n + 1;
-	} while (n <= 9);
+	for (n = '0' ; n <= '9'; n++)
+		putchar(n);
+	putchar('\n');
 	return (0);
 }
