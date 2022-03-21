@@ -10,7 +10,7 @@
 void puts2(char *str)
 {
 int m = 0;
-while (m = _strlem(str))
+while (m < _strlen(str))
 {
 if (m % 2 == 0)
 {
