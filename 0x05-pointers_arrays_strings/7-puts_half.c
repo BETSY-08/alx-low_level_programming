@@ -15,6 +15,6 @@ if (_strlen(str) % 2 != 0)
 k += 1;
 }
 for (m = (_strlen(str) + k) / 2; m < _strlen(str); m++)
-_putchar(*(str + m);
+_putchar(*(str + m));
 _putchar('\n');
 }
