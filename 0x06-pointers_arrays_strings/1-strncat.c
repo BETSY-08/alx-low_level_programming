@@ -17,9 +17,10 @@ while (dest[b] != '\0')
 	b++;
 }
 for (j = 0; src[j] != '\0' && j < n; j++)
-	dest[b + j] = src[j];
-
-dest[b] = '\0';
+{
+dest[b + j] = src[j];
+}
+dest[b + j] = '\0';
 return (dest);
 }
 
